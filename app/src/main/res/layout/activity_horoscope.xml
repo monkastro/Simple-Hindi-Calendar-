@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        android:padding="10.0dip">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:src="@drawable/om"
+            android:tint="@color/white"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/awkash"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:text="दैनिक भविष्यफल"
+            android:fontFamily="@font/baloo"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="-40dp"
+            android:layout_marginEnd="50dp"
+            android:layout_toEndOf="@+id/awkash"
+            android:src="@drawable/om"
+            android:tint="@color/white"
+            tools:ignore="MissingConstraints" />
+
+    </RelativeLayout>
+    <include layout="@layout/horoscope_row"
+        android:id="@+id/holiday_row"
+        android:layout_below="@+id/monthname"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+
+       <!-- <include
+            layout="@layout/buttons"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content" />-->
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/simpleWebView"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

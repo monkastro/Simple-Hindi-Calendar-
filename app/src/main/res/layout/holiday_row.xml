@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="horizontal"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="5dp"
+    android:scrollbarAlwaysDrawHorizontalTrack="true">
+
+    <TextView
+        android:id="@+id/gov_holiday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/baloo"
+        android:layout_weight="1"
+        android:background="@drawable/back_oval"
+        android:gravity="center"
+        android:text="त्यौहार"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/festival_calender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/back_oval"
+        android:layout_marginStart="5dp"
+        android:text="सरकारी अवकाश"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/subh_muhurat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:text="शुभ मुहूर्त"
+        android:textStyle="bold"
+        android:background="@drawable/back_oval"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/horoscope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:layout_marginStart="5dp"
+        android:gravity="center"
+        android:fontFamily="@font/baloo"
+        android:textStyle="bold"
+        android:text="राशि फल"
+        android:background="@drawable/back_oval"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="5dp" />
+
+</LinearLayout>
+</LinearLayout>

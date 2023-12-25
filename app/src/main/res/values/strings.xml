@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Hindi Calender</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Rate us</string>
+    <string name="menu_gallery">leave Suggestion</string>
+    <string name="menu_slideshow">Share App</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="singh">सिंह</string>
+    <string name="vrisabh">वृषभ</string>
+    <string name="mesh">मेष राशि</string>
+    <string name="mithun">मिथुन</string>
+    <string name="krk">कर्क</string>
+    <string name="knya">कन्या</string>
+    <string name="tula">तुला</string>
+    <string name="vrischic">वृश्चिक</string>
+    <string name="dhanu">धनु</string>
+    <string name="makr">मकर</string>
+    <string name="kumbh">कुंभ</string>
+    <string name="min">मीन</string>
+    <string name="admob__full_Ads">ca-app-pub-8544924075745696/4184939820</string>
+    <string name="admob__full_horoscope">ca-app-pub-8544924075745696/9078173855"</string>
+
+</resources>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rect"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="5dp"
+            android:scrollbarAlwaysDrawHorizontalTrack="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/jan"
+                    android:layout_width="50dp"
+                    android:clickable="true"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"
+                    android:layout_height="50dp"
+                    android:src="@drawable/jan_icon"
+                    android:layout_marginStart="5dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/jan"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="3dp"
+                    android:gravity="center"
+                    android:textColor="#FFFF"
+                    android:fontFamily="@font/baloo"
+                    android:text="जनवरी"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/feb"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/feb_icon"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/back_oval"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/feb"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:textColor="#FFFF"
+                    android:fontFamily="@font/baloo"
+                    android:text="फ़रवरी"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/mar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/mar_icon"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/back_oval"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mar"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:textColor="#FFFF"
+                    android:fontFamily="@font/baloo"
+                    android:text="मार्च"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/april"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/apr_icon"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/back_oval"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/april"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:textColor="#FFFF"
+                    android:fontFamily="@font/baloo"
+                    android:text="अप्रैल"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/may"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/may_icon"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/back_oval"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/may"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:textColor="#FFFF"
+                    android:fontFamily="@font/baloo"
+                    android:text="मई"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/june"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/jun_icon"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/back_oval"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/june"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:textColor="#FFFF"
+                    android:fontFamily="@font/baloo"
+                    android:text="जून"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="5dp"
+            android:scrollbarAlwaysDrawHorizontalTrack="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/july"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/july_icon"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/back_oval"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/july"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:textColor="#FFFF"
+                    android:fontFamily="@font/baloo"
+                    android:text="जुलाई"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/aug"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/aug_icon"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/back_oval"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aug"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:textColor="#FFFF"
+                    android:fontFamily="@font/baloo"
+                    android:text="अगस्त"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/sept"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/sep_icon"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/back_oval"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sept"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="15dp"
+                    android:gravity="center"
+                    android:textColor="#FFFF"
+                    android:fontFamily="@font/baloo"
+                    android:text="सितम्बर"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/oct"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/oct_icon"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/back_oval"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/oct"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:textColor="#FFFF"
+                    android:fontFamily="@font/baloo"
+                    android:text="अक्टूबर"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/nov"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/nov_icon"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/back_oval"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nov"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:textColor="#FFFF"
+                    android:fontFamily="@font/baloo"
+                    android:text="नवम्बर "
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/dec"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/dec_icon"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/back_oval"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dec"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:textColor="#FFFF"
+                    android:fontFamily="@font/baloo"
+                    android:text="दिसम्बर"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
